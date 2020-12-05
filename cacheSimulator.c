@@ -1,3 +1,11 @@
+
+// Parameters
+// cacheSize(power of 2) | cacheType(direct, assoc, or assoc:n where n is power of 2) | blockSize(power of 2) | replacementPolicy(LRU or FIFO) | textFile of inputs
+
+// Return
+// memoryWrites, memoryReads, cacheHits, cacheMisses
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
